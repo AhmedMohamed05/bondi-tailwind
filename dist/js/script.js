@@ -13,7 +13,7 @@ doubleDownArrow.onclick = () => {
 let photosHolder = document.querySelector(".works .photos");
 
 for (let i = 1; i <= 8; i++) {
-  let imgSrc = `./dist/images/work-0${i}.jpg`;
+  let imgSrc = `../images/work-0${i}.jpg`;
 
   photosHolder.innerHTML += `
   <div class="img-holder">
@@ -34,11 +34,10 @@ function activeClassHandler(arr, className) {
     };
   });
 }
-
 let members = document.querySelector(".team .members");
 
 for (let i = 1; i <= 4; i++) {
-  let imgSrc = `./dist/images/team-${i}.png`;
+  let imgSrc = `../images/team-${i}.png`;
 
   members.innerHTML += `
   <div class="card">
@@ -51,7 +50,7 @@ for (let i = 1; i <= 4; i++) {
 let blogs = document.querySelector(".blog .items");
 
 for (let i = 1; i <= 3; i++) {
-  let imgSrc = `./dist/images/blog-${i}.jpg`;
+  let imgSrc = `../images/blog-${i}.jpg`;
 
   blogs.innerHTML += `
   <div class="item">
