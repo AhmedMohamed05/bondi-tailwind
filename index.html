@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <link rel="styleSheet" href="./dist/all.min.css" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <title>template-one-tailwindcss</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="w-full fixed top-0 bg-dark z-50">
+      <div
+        class="container relative flex justify-between items-center mx-auto py-4 px-8"
+      >
+        <div class="logo flex-1">
+          <img src="./dist/images/logo.png" alt="Logo" />
+        </div>
+        <nav class="text-white px-4 border-r">
+          <div class="icon cursor-pointer">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul
+            class="links flex justify-center items-center bg-dark font-bold capitalize"
+          >
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#features">features</a></li>
+            <li><a href="#works">works</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#team">team</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#subscribe">subscribe</a></li>
+          </ul>
+        </nav>
+        <div class="form">
+          <i class="fa-solid fa-search color-green mx-3 cursor-pointer"></i>
+          <button type="button" class="login btn">Login</button>
+        </div>
+      </div>
+    </header>
+    <!-- /HEADER -->
+
+    <!-- LANDING -->
+    <section class="landing h-screen bg-dark cf text-center" id="home">
+      <div class="text">
+        <h1 class="text-white font-extrabold text-5xl">Taste The Creativity</h1>
+        <p class="text-desc-white my-3">
+          We make awesome graphic and web design
+        </p>
+        <button class="btn">Get Started</button>
+      </div>
+      <a
+        href="#features"
+        class="absolute bottom-5 left-2/4 -translate-x-2/4 text-white double-down"
+      >
+        <i class="fa-solid fa-arrow-down fa-2x"></i>
+      </a>
+    </section>
+    <!-- /LANDING -->
+
+    <!-- FEATURES -->
+    <section class="features" id="features">
+      <div class="section-title">
+        <img src="./dist/images/section-title-img.png" alt="" />
+        <h2 class="title">We are Good at</h2>
+        <p class="desc">SOME OF THESE STUFF UNDER</p>
+      </div>
+      <div class="cards mt-10">
+        <div
+          class="container mx-auto flex justify-between items-center flex-wrap text-center py-10 px-4 lg:flex-nowrap"
+        >
+          <div class="card">
+            <span class="number">
+              <i class="fa-solid fa-1"></i>
+            </span>
+            <div class="icon">
+              <i class="fa-solid fa-pencil"></i>
+            </div>
+            <p class="card-title">graphic design</p>
+            <p class="card-desc">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+          </div>
+          <div class="card">
+            <span class="number">
+              <i class="fa-solid fa-2"></i>
+            </span>
+            <div class="icon">
+              <i class="fa-solid fa-display"></i>
+            </div>
+            <p class="card-title">graphic design</p>
+            <p class="card-desc">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+          </div>
+          <div class="card">
+            <span class="number">
+              <i class="fa-solid fa-3"></i>
+            </span>
+            <div class="icon">
+              <i class="fa-solid fa-plug"></i>
+            </div>
+            <p class="card-title">graphic design</p>
+            <p class="card-desc">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /FEATURES -->
+
+    <!-- WORKS -->
+    <section class="works section-bg" id="works">
+      <div class="section-title">
+        <img src="./dist/images/section-title-img.png" alt="" />
+        <h2 class="title">We are Good at</h2>
+        <p class="desc">SOME OF THESE STUFF UNDER</p>
+      </div>
+      <ul
+        class="catgories my-8 h-5 justify-center items-center gap-3 capitalize flex"
+      >
+        <li class="btn">all</li>
+        <li>design</li>
+        <li>code</li>
+        <li>photo</li>
+        <li>app</li>
+      </ul>
+      <div
+        class="photos container m-auto grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-4"
+      ></div>
+    </section>
+    <!-- /WORKS -->
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="section-title">
+        <img src="./dist/images/section-title-img.png" alt="" />
+        <h2 class="title">Some Stuff About Us</h2>
+        <p class="desc">THE GREAT TEAM</p>
+        <p class="desc after:opacity-0 mt-10 max-w-2xl">
+          Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
+          eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta
+          dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+          malesuada.
+        </p>
+      </div>
+      <div class="container m-auto mt-10 flex flex-col lg:flex-row">
+        <div class="left lg:w-2/4 text-center lg:text-left">
+          <p class="title text-2xl mb-5">Retina Design</p>
+          <div class="text max-w-xl">
+            <p class="desc my-10 text-desc-black">
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Donec rutrum congue leo eget malesuada. Mauris blandit aliquet
+              elit,
+            </p>
+            <p class="desc my-10 text-desc-black">
+              eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci
+              porta dapibus. Proin eget tortor risus. Donec sollicitudin
+              molestie malesuada.
+            </p>
+          </div>
+          <button class="btn">Order Me One</button>
+        </div>
+        <div
+          class="right flex justify-center items-center lg:w-2/4 mt-5 lg:m-0"
+        >
+          <img src="./dist/images/laptop.png" alt="LapTop" />
+        </div>
+      </div>
+    </section>
+    <!-- /ABOUT -->
+
+    <!-- TEAM -->
+    <section class="team section-bg" id="team">
+      <div class="section-title">
+        <h2 class="title text-yellow text-xl font-bold">Meet The Team</h2>
+        <p class="desc max-w-xl after:opacity-0">
+          Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
+          eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta
+          dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+          malesuada
+        </p>
+      </div>
+      <div class="container m-auto">
+        <div
+          class="members grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5"
+        ></div>
+      </div>
+    </section>
+    <!-- /TEAM -->
+
+    <!-- PROJECT -->
+    <section class="project bg-dark text-center py-10">
+      <p class="title font-extrabold text-2xl text-white">
+        Start Your Project Now
+      </p>
+      <p class="text-desc-white my-3">
+        Leave your description and we start the engine.Don't worry,you can
+        cancel anytime
+      </p>
+      <button class="btn">START PROJECT</button>
+    </section>
+    <!-- /PROJECT -->
+
+    <!-- BLOG -->
+    <section class="blog" id="blog">
+      <div class="section-title">
+        <img src="./dist/images/section-title-img.png" alt="" />
+        <h2 class="title">Read Our Blog</h2>
+        <p class="desc">NEW STORIES</p>
+      </div>
+
+      <div
+        class="items container mx-auto px-5 mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+      ></div>
+    </section>
+    <!-- /BLOG -->
+
+    <!-- SUBSCRIPT -->
+    <section class="subscribe bg-yellow-500" id="subscribe">
+      <div
+        class="form container m-auto flex justify-between items-center flex-wrap py-5 px-6"
+      >
+        <p class="text-xl font-extrabold">Subscribe to our newsLetter:</p>
+        <input
+          class="flex-1 my-2 mx-5 bg-transparent border-b border-white px-1 focus:outline-none placeholder:text-white text-white"
+          type="email"
+          placeholder="Enter Your Email"
+        />
+        <button class="bg-dark text-white py-2 px-3 mx-auto">Subscribe</button>
+      </div>
+    </section>
+    <!-- /SUBSCRIPT -->
+
+    <!-- FOOTER -->
+    <footer class="bg-dark py-10">
+      <div
+        class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5"
+      >
+        <div class="info">
+          <div class="logo">
+            <img src="./dist/images/logo.png" alt="Logo Image" />
+            <p class="text-desc-white my-4">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus
+            </p>
+            <p class="text-desc-white my-4">
+              Created By <span style="color: #33d1cc">Graphberry</span>
+            </p>
+            <p class="text-white">
+              &copy; 2002 - <span class="text-yellow">Bondi Inc</span>
+            </p>
+          </div>
+        </div>
+        <div class="links">
+          <p class="text-lg font-bold text-white">links</p>
+          <ul class="leading-7 text-desc-white">
+            <li>Home</li>
+            <li>Our Services</li>
+            <li>Portfolio</li>
+            <li>Testimonials</li>
+            <li>Support</li>
+            <li>Terms and Condition</li>
+          </ul>
+        </div>
+        <div class="about-us">
+          <p class="text-lg font-bold text-white">About Us</p>
+          <ul class="leading-7 text-desc-white">
+            <li>Sign In</li>
+            <li>Register</li>
+            <li>About Us</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <p class="text-lg font-bold text-white">Contact Us</p>
+          <p class="text-desc-white">
+            Get in touch with us via mail phone.We are waiting for your call or
+            message
+          </p>
+          <button class="btn my-5 w-full">Graphberry@gmail.com</button>
+          <div
+            class="icons flex justify-start gap-3 items-center py-4 text-white"
+          >
+            <i class="fa-brands fa-facebook" data-bg="#1877f2"></i>
+            <i class="fa-brands fa-twitter" data-bg="#1da1f2"></i>
+            <i class="fa-brands fa-linkedin" data-bg="#0a66c2"></i>
+            <i class="fa-brands fa-youtube" data-bg="#ff0000"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /FOOTER -->
+
+    <script src="./dist/js/all.min.js"></script>
+    <script src="./dis/js/script.js"></script>
+  </body>
+</html>
